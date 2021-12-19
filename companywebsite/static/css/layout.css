@@ -25,7 +25,7 @@ body {
   background-size: 100% 100%;
   margin: 0px 0px 0px 0px;
   padding-top: 150px;
-  color: #16d1ae;
+  color: #000000;
 }
 
 .menu {
@@ -124,7 +124,51 @@ body {
 .productitem .itemprice {
   display: block;
 }
+.peopleitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #16d1ae;
+}
+.peoplecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
 
+.peoplecontent h1 {
+  text-align: left;
+}
+
+.peopleitems {
+  display: block;
+}
+
+.peopleitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.peopleitem img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.peopleitem .itemimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.peopleitem .itemname {
+  display: block;
+}
+.peopleitem .itemprice {
+  display: block;
+}
 .footer {
   display: block;
   width: 100%;
